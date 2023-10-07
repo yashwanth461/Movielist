@@ -1,0 +1,109 @@
+movies-list-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+  align-items: center; /* Center cards horizontally */
+}
+
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px; /* Limit card width */
+}
+
+.movie-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.movie-vote {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.vote-count {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0074b8;
+}
+
+.vote-label {
+  font-size: 14px;
+  color: #777;
+}
+
+.movie-image {
+  text-align: center;
+}
+
+.movie-poster {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.movie-details {
+  padding: 10px;
+}
+
+.movie-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.movie-genre,
+.movie-director,
+.movie-stars {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.movie-meta {
+  display: flex;
+  font-size: 14px;
+  color: #777;
+}
+
+.movie-meta p {
+  margin-right: 10px;
+}
+
+.movie-stats {
+  display: flex;
+  font-size: 14px;
+  color: #0074b8;
+}
+
+.movie-stats p {
+  margin-right: 10px;
+}
+
+.movie-actions {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.watch-trailer-button {
+  background-color: #0074b8;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.watch-trailer-button:hover {
+  background-color: #005b41;
+}
